@@ -24,6 +24,7 @@ function Login({trocarTela}){
             <input style={styles.input} placeholder="Senha" type="password" value={senha} onChange={(e) => {setSenha(e.target.value)}}/>
             <button style={styles.button} type="submit">Acessar</button>
             </form>
+            nome:admin senha:admin
         </div>
 )}
 

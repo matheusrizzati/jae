@@ -4,8 +4,8 @@ function Escolha({trocarTela}){
     <h1 style={styles.h1}>Bem-vindo</h1>
     <h2 style={styles.h2}>Escolha seu perfil</h2>
 
-    <button style={styles.button} onClick={(e) => {e.preventDefault(); trocarTela('InicialTurista')}}>Sou turista</button>
-    <button style={styles.button} onClick={(e) => {e.preventDefault(); trocarTela('InicialEmpresa')}}>Sou empresa</button>
+    <button style={styles.button} onClick={(e) => {e.preventDefault(); alert("Em implementação")}}>Sou turista</button>
+    <button style={styles.button} onClick={(e) => {e.preventDefault(); trocarTela('ValidarCupom')}}>Sou empresa</button>
     </div>
 )}
 
